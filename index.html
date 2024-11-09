@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Developer portfolio showcasing projects, skills, and contact information">
+    <title>Kauthar Waggie's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.10.1/devicon.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Kauthar Waggie</h1>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <img src="/img/KautharWaggie01.jpg" alt="Profile Picture" class="profile-pic">
+        <h2>Front-End Developer | Designer</h2>
+        <p>Hi, I'm Kauthar! I specialize in creating user-friendly and accessible web experiences.</p>
+    </section>
+
+    <section id="projects">
+      <h2 class="slide-in">Projects</h2>
+      <div class="projects-container">
+          <div class="project-card" onclick="toggleDetails(this)">
+            <img src="/img/Multy.gif" alt="Project 1 Screenshot" class="project-image">
+            <div class="project-info">
+                <h3>Cache Bank</h3>
+                <p>Cache Bank is exclusively designed for software developers.
+                  It understands your financial needs are as unique as the code you write, 
+                  its services cutting-edge financial solutions that help take care of your cash.
+                </p>
+                <p><strong>Technologies:</strong></p>
+                <div class="skills">
+                  <div class="skill-badge">
+                      <i class="devicon-html5-plain colored"></i>
+                      <span>HTML5</span>
+                  </div>
+                  <div class="skill-badge">
+                      <i class="devicon-css3-plain colored"></i>
+                      <span>CSS3</span>
+                  </div>
+                  <div class="skill-badge">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://github.com/kauthar-waggie/SDF_Portfolio_Piece_CS20240235_FTO2407_Group-C_Kauthar-Waggie_SDF11.git" target="_blank">View Project</a>
+            </div>
+        </div>
+        <div class="project-card" onclick="toggleDetails(this)">
+            <img src="/img/Promo Launch!.gif" alt="Project 2 Screenshot" class="project-image">
+            <div class="project-info">
+                <h3>Personal Websites</h3>
+                <p>I am equipped with building personal and business websites, this project show cases 
+                  the beginning of my work with fully functional and responsive designs. </p>
+                <p><strong>Technologies:</strong></p>
+                <div class="skills">
+                  <div class="skill-badge">
+                      <i class="devicon-html5-plain colored"></i>
+                      <span>HTML5</span>
+                  </div>
+                  <div class="skill-badge">
+                      <i class="devicon-css3-plain colored"></i>
+                      <span>CSS3</span>
+                  </div>
+                  <div class="skill-badge">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://github.com/kauthar-waggie/Module_7R_CS20240235_FTO2407_Group-C_Kauthar-Waggie_SDF07_R.git" target="_blank">View Project</a>
+            </div>
+        </div>
+        <div class="project-card" onclick="toggleDetails(this)">
+          <img src="/img/Magic Book.gif" alt="Project 3 Screenshot" class="project-image">
+          <div class="project-info hidden">
+              <h3>Book Connect </h3>
+              <p>Dive into the delightful world of "Book Connect," where literary adventures await at your fingertips!
+                 Browse, explore, and uncover your next great read from a vast, vibrant collection. 
+                 Whether you're a fan of thrilling mysteries, epic fantasies, or heartwarming romances, 
+                 "Book Connect" brings the magic of books directly to you. Happy reading!</p>
+              <p><strong>Technologies:</strong></p>
+              <div class="skills">
+                <div class="skill-badge">
+                    <i class="devicon-html5-plain colored"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-badge">
+                    <i class="devicon-css3-plain colored"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-badge">
+                  <i class="devicon-javascript-plain colored"></i>
+                  <span>JavaScript</span>
+              </div>
+            </div>
+            <a href="https://github.com/kauthar-waggie/CS20240235_FTO2407_Group-B_Kauthar-Waggie_DJS03.git" target="_blank">View Project</a>
+        </div> 
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>My Skills</h2>
+      <div class="skills-container">
+          <div class="skill-badge">
+              <i class="devicon-html5-plain colored"></i>
+              <span>HTML5</span>
+          </div>
+          <div class="skill-badge">
+              <i class="devicon-css3-plain colored"></i>
+              <span>CSS3</span>
+          </div>
+          <div class="skill-badge">
+              <i class="devicon-javascript-plain colored"></i>
+              <span>JavaScript</span>
+          </div>
+          <div class="skill-badge">
+              <i class="devicon-react-original colored"></i>
+              <span>React</span>
+          </div>
+          <div class="skill-badge">
+              <i class="devicon-nodejs-plain colored"></i>
+              <span>Node.js</span>
+          </div>
+          <div class="skill-badge">
+              <i class="devicon-git-plain colored"></i>
+              <span>Git</span>
+          </div>
+      </div>
+  </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>You can reach me through the following platforms:</p>
+      <div class="contact-links">
+          <a href="kautharwaggie1@gmail.com" target="_blank">
+              <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://github.com/kauthar-waggie" target="_blank">
+              <i class="fab fa-github"></i> 
+          </a>
+          <a href="https://www.linkedin.com/in/kauthar-waggie-865a03200/" target="_blank">
+              <i class="fab fa-linkedin"></i> 
+          </a>
+          <a href="https://x.com/kautharwaggie1" target="_blank">
+              <i class="fab fa-twitter"></i> 
+          </a>
+      </div>
+  </section>
+  
+
+    <footer>
+        <p>&copy; 2024 Kauthar Waggie. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
