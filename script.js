@@ -3,7 +3,7 @@ function toggleMenu() {
   navbar.classList.toggle("show");
 }
 
-// Close the menu if the user clicks outside the navbar or on the menu button
+// Closes the menu if the user clicks outside the navbar or on the menu button
 document.addEventListener('click', function(event) {
   const navbar = document.getElementById('navbar');
   const menuToggle = document.querySelector('.menu-toggle');
@@ -14,23 +14,20 @@ document.addEventListener('click', function(event) {
   }
 });
 
-
 function toggleDetails(card) {
   // Get all project cards
   const allCards = document.querySelectorAll('.project-card');
 
-  // Remove the 'expanded' class from all cards
+  // Removes the 'expanded' class from all cards
   allCards.forEach(function(item) {
       if (item !== card) {
           item.classList.remove('expanded');
       }
   });
 
-  // Toggle the 'expanded' class on the clicked card
+  // Toggles the 'expanded' class on the clicked card
   card.classList.toggle('expanded');
 }
-
-
 
 window.addEventListener("scroll", function() {
   const projectsTitle = document.querySelector(".slide-in");
